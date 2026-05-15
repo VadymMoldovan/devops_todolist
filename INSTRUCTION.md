@@ -3,7 +3,7 @@
 ## Docker Hub Repository
 
 Image is available at:
-**https://hub.docker.com/r/YOUR_DOCKERHUB_USERNAME/todoapp**
+**https://hub.docker.com/r/vadymmoldovan/todoapp**
 
 ---
 
@@ -55,8 +55,8 @@ http://localhost:8080
 Instead of building locally, you can pull the pre-built image:
 
 ```bash
-docker pull YOUR_DOCKERHUB_USERNAME/todoapp:1.0.0
-docker run -d -p 8080:8080 --name todoapp YOUR_DOCKERHUB_USERNAME/todoapp:1.0.0
+docker pull vadymmoldovan/todoapp:1.0.0
+docker run -d -p 8080:8080 --name todoapp vadymmoldovan/todoapp:1.0.0
 ```
 
 ---
@@ -64,8 +64,8 @@ docker run -d -p 8080:8080 --name todoapp YOUR_DOCKERHUB_USERNAME/todoapp:1.0.0
 ## 5. Push Image to Docker Hub (for maintainers)
 
 ```bash
-docker tag todoapp:1.0.0 YOUR_DOCKERHUB_USERNAME/todoapp:1.0.0
-docker push YOUR_DOCKERHUB_USERNAME/todoapp:1.0.0
+docker tag todoapp:1.0.0 vadymmoldovan/todoapp:1.0.0
+docker push vadymmoldovan/todoapp:1.0.0
 ```
 
 ---
